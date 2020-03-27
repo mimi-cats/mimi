@@ -98,9 +98,9 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #f9f9f9;
 }
 
-/* .contact7{
+.contact7{
   display: none;
-} */
+}
 
 @media screen and (max-width: 768px) {
   .fh5co-nav {
