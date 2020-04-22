@@ -221,6 +221,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li.has-dropdown {
   position: relative;
 }
+
 .fh5co-nav ul li.has-dropdown .dropdown {
   width: 150px;
   -webkit-box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.55);
@@ -276,7 +277,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
-  color: #000;
+  color: #a9a9a9;
 }
 .fh5co-nav ul li.active > a {
   color: #528dfd !important;
@@ -484,6 +485,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  border: 1px solid #eee;
 }
 .work .work-grid .inner {
   display: table;
@@ -1718,35 +1720,39 @@ blockquote .person cite {
   object-fit: contain;
 }
 
-.lw , .wds , .zavio ,.logo,.bcard{
+.pj, .early, .gtweb, .gtmp4, .other, .lw , .wds {
   text-align:center;
   line-height:0px;
   background:#333;
-  margin:10rem 0rem;
+  margin:5rem 0rem;
 }
 
-.lw:after, .wds:after,.zavio:after,.logo:after,.bcard:after{
+.pj:after, .early:after, .gtweb:after, .gtmp4:after, .other:after, .lw:after, .wds:after{
   font-weight:bold;
   font-size:22px;
   background:white;
   z-index:2;
 }
-
+.pj:after{
+  content:"PROJECT 專案";
+}
+.early:after{
+  content:"EARLY 早期作品";
+}
+.gtweb:after{
+  content:"網站相關";
+}
+.gtmp4:after{
+  content:"影片相關";
+}
+.other:after{
+  content:"商標及平面";
+}
 .lw:after{
   content:"愛的世界 Lover World";
 }
 .wds:after{
   content:"萬丹山生命紀念園";
-}
-
-.zavio:after{
-  content:"翰禹科技";
-}
-.logo:after{
-  content:"商標設計";
-}
-.bcard:after{
-  content:"名片設計";
 }
 
 .mp4 img{
@@ -1768,7 +1774,6 @@ blockquote .person cite {
   background: #929292;
   border-radius: 50%;
 }
-
 
 
 
