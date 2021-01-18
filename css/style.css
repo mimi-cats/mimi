@@ -1354,6 +1354,10 @@ blockquote .person cite {
   max-height: 100% !important;
 }
 
+.w-75 {
+  width: 75% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
