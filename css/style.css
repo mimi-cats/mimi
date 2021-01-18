@@ -1737,22 +1737,22 @@ blockquote .person cite {
   content:"PROJECT";
 }
 .early:after{
-  content:"EARLY 早期作品";
+  content:"EARLY";
 }
 .gtweb:after{
-  content:"網站相關";
+  content:"WEB";
 }
 .gtmp4:after{
-  content:"影片相關";
+  content:"VIDEO";
 }
 .other:after{
-  content:"商標及平面";
+  content:"LOGO GRAPHIC";
 }
 .lw:after{
-  content:"愛的世界 Lover World";
+  content:"LOVE WORLD";
 }
 .wds:after{
-  content:"萬丹山生命紀念園";
+  content:"WANDANSHAN LIFE";
 }
 
 .mp4 img{
@@ -1767,6 +1767,9 @@ blockquote .person cite {
   margin-left: 0.8rem;
   color: #929292;
   line-height: 10px;
+}
+.mp4title span{
+  margin-top:6px;
 }
 .circle {
   width: 10px;
@@ -1816,3 +1819,38 @@ background-color: rgba(9,9,9, 0.6);
 .success.is-active {
   display: block;
 }
+
+
+/*--------------------------------------------------------------
+    Go to back  
+--------------------------------------------------------------*/
+
+#back{
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  bottom: 1.2vw;
+  opacity: 0;
+  outline-style: none;
+  position: fixed;
+  padding: 14px 12px;
+  left: 0.78571em;
+  text-decoration: none;
+  transform: scale(0, 0);
+  transition: 0.2s;
+  z-index: 999;
+  -webkit-transform: translateZ(0);
+}
+#back:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#back i{
+  color: white;
+    font-size: 1.5em;
+}
+
+#back.displayed {
+  opacity: 1 !important;
+  transform: scale(1, 1);}
