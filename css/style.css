@@ -1734,7 +1734,7 @@ blockquote .person cite {
   z-index:2;
 }
 .pj:after{
-  content:"PROJECT 專案";
+  content:"PROJECT";
 }
 .early:after{
   content:"EARLY 早期作品";
