@@ -1362,6 +1362,12 @@ blockquote .person cite {
   width: 100% !important;
 }
 
+.center{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .m-0 {
   margin: 0 !important;
 }
